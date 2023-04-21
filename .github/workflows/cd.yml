@@ -1,0 +1,9 @@
+name: Multiple Events
+
+on: [push]
+
+jobs:
+    lesson2:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Success!"
